@@ -543,7 +543,7 @@
     socket.on("Player-At-TheMoment", function (data) {
       disPlayer(data);
 
-      if (data.length ===1)
+      if (data.length ===4)
         ZoGame(true);
     });
 
@@ -555,7 +555,7 @@
       socket.on("Player-At-TheMoment", function (data) {
         disPlayer(data);
 
-        if (data.length ===1)
+        if (data.length ===4)
           ZoGame(true);
       });
     }
